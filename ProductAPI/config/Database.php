@@ -9,7 +9,7 @@ class Database {
     private $password;
 
     public function __construct() {
-        $this->host = "localhost:3307";
+        $this->host = "localhost:3306";
         $this->databaseName = "store";
         $this->userName = "root";
         $this->password = "";
